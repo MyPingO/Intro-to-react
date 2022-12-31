@@ -20,9 +20,17 @@ body {
   
   .square {
     background: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    font-size: 3rem;
     font-weight: bold;
+    line-height: 23vh;
+    height: 30vh;
     padding: 0;
     text-align: center;
+    width: 23vw;
   }
   
   .square:focus {
